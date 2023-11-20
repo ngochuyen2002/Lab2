@@ -1,0 +1,12 @@
+<input type="text" name="txt" class="txt">
+<input type="button" value="copy" class="btn">
+
+<script>
+    let btn=document.querySelector('.btn');
+    btn.addEventListener("click",function(){
+        let txt=document.querySelector('.txt');
+        txt.select();
+        document.execCommand('copy');
+    })
+</script>
+

@@ -1,0 +1,6 @@
+/* CSS for highlighting bold words */
+.highlight {
+    font-weight: bold;
+    color: #ff0000; /* You can customize the color */
+  }
+  
